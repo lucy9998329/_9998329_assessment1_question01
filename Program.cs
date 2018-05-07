@@ -25,7 +25,7 @@ namespace _9998329_assessment1_question01
                 _Gearbox = value;
             }
         }
-        //Modifying the constructor for the to initialize the name of the colour, make and gearbox
+        //Constructor
         public Cars(string _Colour, string _Make, string _Gearbox){
             Colour = _Colour;
             Make = _Make;
@@ -55,9 +55,11 @@ namespace _9998329_assessment1_question01
             
             //Using the new operater to creating a Car object 
             //Assigning the object reference to a variable
-            var car1 = new Cars("green" , "ford" , "manual");       
+            var car1 = new Cars("green" , "Ford" , "manual");       
             Console.WriteLine(car1.DisplayCar());            
-            Console.WriteLine(car1.ToString());                           
+            Console.WriteLine(car1.ToString());
+            Console.WriteLine("Press any key to exit.");
+            Console.ReadKey();                           
         }
     }
 }
