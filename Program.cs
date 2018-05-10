@@ -35,7 +35,7 @@ namespace _9998329_assessment1_question01
         //Setting method access to public
         //Adding the method to the class
         public string DisplayCar(){
-            var carDetails = "Enter new car details bellow\n";            
+            var carDetails = "Enter new car details below\n";            
             carDetails += $"Colour: {_Colour}\n";
             carDetails += $"Make: {_Make}\n";
             carDetails += $"Gearbox type: {_Gearbox}\n";
